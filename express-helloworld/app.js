@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Prueba Webhook!\n');
+  res.send('Prueba Webhook 2!\n');
 });
 app.get('/Alex', function(req, res) {
   res.send('Hello ALex!\n');
