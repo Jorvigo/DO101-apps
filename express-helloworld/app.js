@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Fuck World!\n');
+  res.send('Esto no funciona eh!\n');
 });
 app.get('/Alex', function(req, res) {
   res.send('Hello ALex!\n');
